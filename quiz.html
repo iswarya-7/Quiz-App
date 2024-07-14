@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External css link -->
+    <link rel="stylesheet" href="/quiz.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="qu">
+            <div class="quiz-start">
+                <div class="quiz-title">
+                    <!-- <img src="https://cdn3d.iconscout.com/3d/premium/thumb/quiz-4105652-3404371.png" alt="Quiz"> -->
+                    <img src="/quiz.jpg" alt="Quiz">
+                    <h2>Quiz App</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="quiz-sub">
+                    <p id="sub-title">Test your knowledge with this app!</p>
+                </div>
+                <button id="playbutton">Play Now !</button>
+            </div>
+        </div>
+        <!-- Middle page -->
+        <div class="quizapp">
+            <div class="title">
+
+                <h1>Simple Technical Quiz</h1>
+                <div class="hr"></div>
+            </div>
+            <div class="quiz">
+                <div class="question1">
+                    <p id="question">Questions are here</p>
+                </div>
+                <div class="answer-buttons">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+
+
+        <script src="/quiz.js"></script>
+</body>
+
+</html>
